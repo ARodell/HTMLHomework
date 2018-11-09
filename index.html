@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>City Latitude and Weather</title>
+
+ <!-- Bring in bootstrap stylesheet -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Latitude</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#plots">Plots
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="maxtemperature.html" target=_blank>Max. Temperature</a></li>
+          <li><a href="humidity.html" target=_blank>Humidity</a></li>
+          <li><a href="#cloudiness.html" target=_blank>Cloudiness</a></li>
+          <li><a href="windspeed.html" target=_blank>Wind Speed</a></li>
+        </ul>
+      </li>
+      <li><a href="comparisons.html" target=_blank>Comparisons</a></li>
+      <li><a href="data.html" target=_blank>Data</a></li>
+    </ul>
+  </div>
+</nav>
+<br>
+<br>
+<h3><p>Summary of Project</p> </h3>    
+<div class="col-md-12">
+<br>
+<br>
+<br>
+  <h4><p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled dat from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p></h4>
+<br>
+   <h4><p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: maximum temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and description of any trends and correlations witnessed.</p></h4>
+</div>
+
+</body>
+</html>
